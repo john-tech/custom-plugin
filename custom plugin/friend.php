@@ -8,6 +8,31 @@
  * Author URI: https://example.com/
  */
 
+
+
+
+
+
+// For security plugin start 
+//If this file is called directly, abort.
+// if (!defined( 'WPINC' )) { 
+// die; 
+// }
+// if ( !defined('WPAC_PLUGIN_VERSTON')) { 
+// define('WPAC_PLUGIN_VERSION', '1.0.0'); 
+// }
+// if ( !defined('WPAC_PLUGIN_DIR')) {
+//  define("WPAC_PLUGIN DIR", plugin dir_path( FILE ));
+// }
+
+// if( !function_exists( 'wpac_my_plugin_funtion')) { 
+// function wpac_my_plugin_funtion() { 
+
+// }
+// 	}
+// End
+
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
