@@ -22,7 +22,7 @@
 // define('WPAC_PLUGIN_VERSION', '1.0.0'); 
 // }
 // if ( !defined('WPAC_PLUGIN_DIR')) {
-//  define("WPAC_PLUGIN DIR", plugin dir_path( FILE ));
+//  define("WPAC_PLUGIN DIR", plugin dir_url( FILE ));
 // }
 
 // if( !function_exists( 'wpac_my_plugin_funtion')) { 
