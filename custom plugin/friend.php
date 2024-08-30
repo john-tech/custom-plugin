@@ -32,6 +32,21 @@
 // 	}
 // End
 
+// add files css js
+// if( !function_exists('wpac_plugin_scripts')) fl 
+// function wpac_plugin_scripts() { 
+// wp_enqueue_style('wpac-css', WPAC_PLUGIN DIR. 'assets/css/style.css'); 
+// wp_enqueue_script('wpac-js', WPAC_PLUGIN_DIR. 'assets/js/main.js', 'jQuery', '1.0.', true ); 
+// } 
+// add_action(’wp_enqueue_scripts', 'wpac_plugin_scripts');
+//end
+
+
+
+
+
+
+
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
